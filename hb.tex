@@ -23,7 +23,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,fleqn]{book} % Default font size and left-justified equations
+\documentclass[11pt,fleqn,openany]{book} % Default font size and left-justified equations
 
 \usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,letterpaper]{geometry} % Page margins
 
@@ -62,7 +62,8 @@
 	    urlcolor  = blue,
 	    citecolor = blue,
 	    anchorcolor = blue]{hyperref}
-
+\usepackage{miama}
+\usepackage[T1]{fontenc}
 
 \usepackage{csvsimple} % for reading data directly from csv
 \begin{filecontents*}{./iscp/test.csv}
@@ -134,40 +135,333 @@ ISCP will not be held responsible for any inaccuracies in the document.\\
 
 \chapter{About The Department}
 
-The Department of \href{https://www.ee.iitb.ac.in/web}{\color{blue}{ Electrical Engineering (EE)}} is one of the major Departments of IIT Bombay since its inception in 1958. Our department is one of the largest departments in IIT Bombay.
-The department has academic programs with about 570 undergraduate and 730 postgraduate students. The department is equipped with the state of the art experimental and computational facilities for undertaking R \& D and consultancy activities in various fields.\par
-The department has a very vibrant postgraduate program with a strong focus on research and
-development. The number of postgraduate students is more than the number of undergraduate
-students in EE and the department attaches lot of importance to its Master's students as they constitute the backbone of research and development.\par
- 
-The department offers M.Tech in six research areas / specializations:
 
-\begin{enumerate}
-	\item   Communications Engineering (EE1)
-	\item	Control and Computing (EE2)
-	\item	Power Electronics and Power System (EE3)
-	\item	Electronic Systems (EE5)
-	\item	Microelectronics - Circuits (EE6)
-	\item	Solid State Devices (EE7)
-\end{enumerate}
-
-Faculty members of the department are recipients of many distinguished awards:
+\section*{}
+The Department of \href{https://www.ee.iitb.ac.in/web}{\color{blue}{Electrical Engineering (EE)}} is one of the largest departments of IIT Bombay since its inception in 1958. The department has different academic programs with about 570 undergraduate and 730 postgraduate students. The department is equipped with the state of the art experimental and computational facilities for undertaking R $\&$ D and consultancy activities in various fields.\\
+\\
+The EE department has a vibrant postgraduate program with strong focus on research and development. The number of postgraduate students in EE is more than that of the undergraduate students and the department attaches a lot of importance to its Masters' students as they constitute the backbone of research and development.
+\\
+\\The department offers M.Tech in six research areas / specializations:
 \begin{itemize}
-	\item Shanti Swarup Bhatnagar Prize,
-	\item Prof. K. Sreenivasan Memorial Award,
-	\item Prof. SVC Aiya Memorial Award,
-	\item Dr. Vikram Sarabhai Research Award,
-	\item Ram Lal Wadhwa Award,
-	\item INAE Young Engineer Award,
-	\item Alexander von Humboldt Fellowship and many others.
+    \item Communications Engineering (EE1)
+    \item Control and Computing (EE2)
+    \item Power Electronics and Power Systems (EE3)
+    \item Electronic Systems (EE5)
+    \item Integrated Circuit and Systems (EE6)
+    \item Solid State Devices (EE7)
 \end{itemize}
-Many faculty members are Editors of IEEE and other national and international journals. They
-are also Fellows of organizations like IEEE, IETE, INAE, IASc, NASI and INSA.
-
-That's how science is made, thinking and testing and thinking again, creating your own scientific method, coming up with hypothesis, learning what might work and what not, using your instincts. 
+\medskip
+Faculty members of the department are recipients of many distinguished awards like Shanti Swarup Bhatnagar Prize, Prof. K. Sreenivasan Memorial Award, Prof. SVC Aiya Memorial Award, Dr. Vikram Sarabhai Research Award, Ram Lal Wadhwa Award, INAE Young Engineer Award, Alexander von Humboldt Fellowship and many others.\\
+\\
+Many faculty members are Editors of IEEE and other national and international journals. They are also Fellows of organizations like IEEE, IETE, INAE, IASc, NASI and INSA.
 %This statement requires citation \cite{book_key}; this one is more specific \cite[122]{article_key}.
 
-\thispagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 2
+%----------------------------------------------------------------------------------------
+\chapterimage{./pictures/bgf4.png}
+
+\chapter{Message from H.O.D}
+
+\section*{}
+Congratulations on your selection for the M.Tech/Ph.D. program in EE at IIT Bombay. As you know, the competition was very stiff and you are among the very few students who made it. We, the faculty members, staff and students extend a warm welcome to you.
+%\begin{figure}[h]
+    %\centering
+    %\includegraphics[width=0.77\textwidth]{ha-gray-conv-crp.jpg}
+    %\caption{Picture of the M83 galaxy, image taken from the WFC3 ERS M83 Data Products, http://archive.stsci.edu/prepds/wfc3ers/m83datalist.html}
+    %\label{fig:awesome_image}
+%\end{figure}
+\medskip
+\newline As you are aware, ours is among the largest Electrical Engineering departments in the country with 64 faculty members and 1360 students, of which more than 55\% are graduate student. We have a strong academic and research culture. We have state-of-the-art research laboratories in almost all areas of electrical engineering and a few centres of excellence. I am sure you will find this place academically rewarding.
+\medskip
+\newline Your department has a lot to give –just how much you take depends on one person-and that is you. You will face diverse temptations but you need to stay focused to achieve your goals. Do good work-you grow, and the department does too. It is a win-win situation. All in all, I assure you the time spent here will be the best years of your life!
+\begin{center}
+    \textbf{Feel free to contact me if you need any help!}\\
+
+\begin{flushright}
+	{\LARGE\fmmfamily
+	Baylon G Fernandes\\}
+	Head Of Department\\
+	bgf@ee.iitb.ac.in\\
+\end{flushright}
+\end{center}
+%----------------------------------------------------------------------------------------
+%	CHAPTER 3
+%----------------------------------------------------------------------------------------
+
+\chapterimage{./pictures/iscp_bg.png}
+\chapter{Message from ISCP}
+
+\section*{}
+	Hello, Friends!\\
+We hope you are just as excited to be a part of IIT Bombay as we are. Hearty congratulations on this incredible feat!\href{https://gymkhana.iitb.ac.in/~scp/scp/index.html}{\color{blue}{Institute Students Companion Program (ISCP)}} welcomes you to one of the most resourceful campuses in India. The next two or three years are going to be very memorable, enriching and empowering. We hope you imbibe as much as you can and more from your peers, seniors, faculty and staff. Here’s to your first glimpse of ISCP, your vistas to the boulevard leading to the paradise of knowledge called IIT Bombay.\\
+\\
+ISCP is a body within IIT Bombay Post Graduate (PG) student community. Its primary objective is to develop an atmosphere of cordial interaction amongst the PG entrants and seniors to encourage the flow of information, knowledge, and sharing of experiences among the students.\\
+\\
+Life in IIT Bombay can appear a little daunting at times, juggling and balancing the heavy academic workload and the plethora of extra-curricular activities. ISCP aspires to be the one to help you blend in and make the most of it. ISCP strives to provide all newly admitted students one senior student companion as a mentor. New entrants can contact their assigned companion to discuss any issues or concerns, be it academic or non-academic. Student Companions enable a smooth and gentle transition from the graduation days to a post-graduate life. New entrants also feel assured that there is somebody on campus to help them and listen to their concerns. Many a times they find a caring friend in companions.\\
+\\
+	What to expect from a Student Companion:
+	\begin{itemize}
+	    \item Initial information about the campus, courses, academics and extracurricular activities.
+	    \item Support in case of any problem or difficulty.
+	    \item Organization of various academic and non-academic activities for student’s development.
+	    \item Continuous interaction and feedback from students on their needs and requirements.
+	\end{itemize}
+In short, this is a program by the PG students of IIT Bombay for the new entrants to ensure their easy adaptation to IIT Bombay culture and assist them in an overall development through utilization of all the available resources at IIT Bombay. Let the learning begin. Feel free to contact us anytime!\\
+\begin{center}
+    Mail to: iscp@iitb.ac.in\\
+Overall Coordinators\\
+Institute Student Companion Programme (2019-20)\\ Uroo Sawarsi | Tumul Rai | Avinash\\
++91-9007766390 | +91-9432152174 | +91-7008955255
+\end{center}
+%----------------------------------------------------------------------------------------
+%	CHAPTER 4
+%----------------------------------------------------------------------------------------
+
+\chapterimage{./pictures/iscp_dep_bg.png} % Chapter heading image
+
+\chapter{Message from Department Coordinators}
+
+Hello Junta!!\\
+\\
+\\
+Congratulations on becoming a part of the IIT Bombay family. We are delighted to welcome you to one of the best departments of the premier institutes in the world. This institute will provide you with an engaging, vibrant, and inclusive community of learners. From your first day to the last, you will be amazed by the array of extraordinary faculties, outstanding facilities and helpful staff in our department which together provides an excellent biosphere for learning.\\
+\\
+\\
+However, the institute’s greatest and most enduring strength is the balance between the quality of education and the extra-curricular activities. It is assured that you will get a lot of opportunities on the academic as well as extra-curricular front to acquire new skills, nurture and enhance your dormant talents and build competence to take on the world.\\
+\\
+Once again, a warm welcome from all the seniors. Have a wonderful stay at IIT Bombay!!!\\
+\begin{center}
+	\begin{tabular}{cc}
+		\photo{1cm}{35mm}{./iscp/sunny.jpg}
+		& \photo{1cm}{35mm}{./iscp/nijil.jpg} \\
+		 \textbf{Sunny Mehta}
+		&\textbf{Ramkrishna}\\
+		\textit{sunnymehta78669@gmail.com}
+		&\textit{ramporicha@ee.iitb.ac.in}\\
+		+919677165155 & +919571648532
+
+	\end{tabular}
+\end{center}
+\sectionlinetwo{magenta}{88}
+
+\chapterimage{./pictures/imr_bg.png} % Chapter heading image
+
+\chapter{Message from IMR}
+
+Dear Freshmen,\\
+\\
+\\
+On behalf of all the Master’s students at IIT Bombay, it is my honour to welcome you all here. Congratulations on having made it to one of the premier technical institutes of the country.\\
+\\
+\\
+You are now a part of the IITB PG community and there are an exhaustive number of services and facilities available to ensure a fruitful educative experience. As post graduate students, you have already been exposed to university level education. While you will delve deeper into understanding your area of interest better, I urge you to explore more. There are several student led bodies on campus focusing on development of skills, sports and extracurricular activities such as dance, drama, music, etc. Your experience will be what you make of it, and your opportunities will be limited only by the limits you place on yourself. Utilize the opportunities to the best of your ability. Along with academics, do explore and make the most of the excellent facilities the institute has to offer.\\
+\\
+As the Institute Masters Representative, my team and I, aim to address your grievances and help you to the best of our abilities. Supporting you in your academic endeavours is our foremost priority and we will strive to improve the IITB experience in all the ways we can. On this note, I, once again, welcome you to IIT Bombay and wish you every success in your future endeavours.!\\
+\\
+\\
+\begin{center}
+    Department Coordinators ISCP\\
+    Ram Poricha | Sunny Mehta\\
+ramporicha@ee.iitb.ac.in | sunnymehta78669@gmail.com\\
++919677165155 | +919571648532
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 5
+%----------------------------------------------------------------------------------------
+
+
+\chapterimage{boat.png}
+\chapter{LAB Facilities}
+
+\chapterimage{boat.png}
+\chapter{Faculty Members}
+\section{EE1: Communication and Signal Processing}
+\begin{tabular}{|c|c|p{6cm}|c}
+\hline 
+Faculty  & Office  & Research Interests \\ 
+\hline
+Prof. Prasanna Chaporkar & • & Resource Allocation and scheduling in wired/wireless networks, Optimization and control of stochastic systems, Distributed systems and algorithms \\ 
+\hline 
+Prof. Subhasis Chaudhuri & • & Multimedia, Computer Vision, Image Processing, Pattern Recognition,Biomedical Signal Processing, Computational Haptics \\ 
+\hline 
+Prof. Vikram M. Gadre & • & Communication and signal processing, with emphasis on multiresolution
+and multi-rate signal processing, especially wavelets and filter banks:
+theory and applications \\ 
+\hline 
+Prof. Shalabh Gupta & • & High-speed CMOS analog/RF/mm-wave integrated circuits and systems,Optical fiber communication systems, Microwave photonics / ultrafast data  conversion using photonics , Beam forming antenna systems, Signal processing for these systems \\ 
+\hline 
+Prof. Joseph John & • & Analog and Digital Circuits, Optical Fiber Communications, Indoor Optical Wireless Systems, Modern Electronic Systems and Instrumentation \\ 
+\hline 
+Prof. Abhay Karandikar & • & Control and Performance Modeling of Wireless Networks, Quality of Service and Resource Allocation in Wired/Wireless Networks, Next Generation Wireless Network Protocols (related to 802.16m, LTE-Advanced and 4G Standards), Co-operative Relay and Self Organizing Network,Carrier Ethernet and Mobile Backhaul, Rural Wireless Network \\ 
+\hline 
+Prof. Gaurav S. Kasbekar& • & Modeling, design and analysis of wireless networks, Game theoretic and economic aspects of spectrum allocation, Cognitive radio networks,
+Lifetime and coverage problems in wireless sensor networks \\ 
+\hline 
+Prof. Animesh Kumar  & • & Signal processing, communication systems, applied statistics, SRAM reliability models \\ 
+\hline 
+\end{tabular} 
+\begin{tabular}{|c|c|p{6cm}|c}
+\hline 
+Prof. Girish Kumar  & • & Microstrip antennas and arrays, Broadband antennas, Microwave integrated circuits, EMI/ EMC, RF communication circuits \\ 
+\hline 
+Prof. D. Manjunath & • & Computer and Communication Network Protocols, Systems and Algorithms Performance Modeling, Queueing Theory and Simulation, Stochastic
+Systems \\ 
+\hline 
+Prof. Shabbir Merchant & • & Signal Processing, Adaptive Signal Processing \\ 
+\hline 
+Prof. Prem C. Pandey & • & Speech and Signal Processing, Biomedical Signal Processing and Instrumentation,Electronic Instrumentation, Embedded Electronic System Design \\ 
+\hline 
+Prof. Sibi Raj B Pillai  & • & Fundamental Limits of Communication Systems, Information Theory and its applications, Compressed Sensing, Stochastic Modeling, Resource Allocation Problems, Interference Channels, Relaying and Broadcasting \\ 
+\hline 
+Prof. Bikash Kumar Dey & • & Information Theory, Coding Theory, Wireless communication. \\ 
+\hline 
+Prof. Preeti Rao & • & Speech and Audio Signal Processing, Music Information Retrieval \\ \hline 
+Prof. Rajbabu Velmurugan & • & Statistical and digital signal processing, Signal processing system design, Particle filter applications, Target tracking systems \\ 
+\hline 
+Prof. Saravanan Vijayakumaran & • & Signal Processing for Communications, Parallel Simulation Algorithms \\ 
+\hline 
+Prof. Nikhil Karamchandani & • & Information Theory, Networks, Communications,Distributed Computation, Cyber-Physical Systems. \\ 
+\hline 
+Prof. Kumar Appaiah & • & Signal processing for communication, fibre optics, wireless communication. \\ 
+\hline 
+Prof. Jaykrishnan U. Nair & • & Queueing theory, Communication networks, Heavy tails. \\ 
+\hline 
+Prof. Manoj Gopalkrishnan & • & Algorithms in nature,Information processing in networks,Reaction networks,Neural networks,Evolution,Game theory,Deep learning,Information geometry,Thermodynamics of information,Quantum Information\\ 
+\hline 
+Prof. Amit Sethi & • & Computational pathology,Medical image analysis,Deep learning,Machine learning,Computer vision,Image processing,Signal processing \\ 
+\hline 
+Prof. Sharayu Moharir & • & Modeling and the design of scalable resource allocation algorithms for large networks, including content delivery networks, communication
+networks and crowd-sourcing. \\ 
+\hline 
+\end{tabular} 
+\section{EE2: Control and Computing}
+\begin{tabular}{|c|c|p{6cm}|c}
+\hline 
+Faculty  & Office  & Research Interests \\ 
+\hline 
+Prof. Madhu N. Belur & • & Control theory, dissipative systems, graph theoretic methods, decentralized control, behavioral theory control, Fault diagnosis \\ 
+\hline 
+Prof. Vivek Shripad Borkar & • & Stochastic Control, Learning Control Theory, Random Processes \\ 
+\hline 
+Prof. Debraj Chakraborty & • & Optimal Control, Linear Systems, Optimization, Differential Games,
+Game Theory \\ 
+\hline 
+Prof. Prasanna Chaporkar & • & •Resource Allocation and scheduling in wired/wireless networks, Optimization and control of stochastic systems, Distributed systems and algorithms \\ 
+\hline 
+Prof. Subhasis Chaudhuri & • & Multimedia, Computer Vision, Image Processing, Pattern Recognition,
+Biomedical Signal Processing, Computational Haptics \\ 
+\hline 
+Prof. Shrikrishna V. Kulkarni & • & Transformers: Design, Analysis and Diagnostics, Electromagnetic and Coupled Field Computations, Power Engineering: Distributed Generation, High Voltage Engineering: Insulation Design/Diagnostics \\ 
+\hline 
+Prof. Debasattam Pal & • & Distributed parameter systems, algebraic analysis, optimal control. \\ 
+\hline 
+Prof. Virendra R. Sule  & • & Cryptology: Block and stream ciphers, efficient arithmetic for public key cryptography, algebraic cryptanalysis, Dynamical systems and feedback control theory \\ 
+\hline
+Prof. Harish K. Pillai  & • & Control theory, Systems theory, Multidimensional systems, Numerical
+and computational methods, Coding theory, Optimization techniques, Electromagnetics \\ 
+\hline 
+\end{tabular} 
+\section{EE3: Power Electronics and Power Systems}
+\begin{tabular}{|c|c|p{6cm}|c}
+\hline 
+Faculty  & Office  & Research Interests \\ 
+\hline 
+Prof. Vivek Agarwal & • & Power conversion: New converter topologies, High frequency link
+power conversion, ZCS-ZVS configurations, Switched Capacitor DCDC converters, Power quality issues: Power factor correction techniques, Static VAR compensation, Active filters \\ 
+\hline 
+Prof. Mukul C. Chandorkar & • & Power Electronics, Power quality, Static Compensation, Motor Drives \\ 
+\hline 
+Prof. Kishore Chatterjee & • & Utility friendly converter topologies, Power Factor Correction techniques,STATCOM, Switched Mode Rectifiers, Electronic Ballast \\ 
+\hline 
+Prof. Baylon G. Fernandes & • & Inverter topologies for VAR compensation, Power electronic interface for non-conventional energy sources, Permanent magnet machines for
+wind power generation, Switched reluctance machines for electric vehicle application \\ 
+\hline 
+Prof. Shrikrishna A. Khaparde & • & Deregulation in Power Industry: optimal bidding, and congestion management,Object Oriented Power System Analysis, Controlled series compensation using SSSC, Harmonic Distortion in Distribution systems, Design and Operation of small tidal power plant, Modeling and Design of transformer \\ 
+\hline 
+Prof. Shrikrishna V. Kulkarni & • & Transformers: Design, Analysis and Diagnostics, Electromagnetic and Coupled Field Computations, Power Engineering: Distributed Generation, High Voltage Engineering: Insulation Design/Diagnostics \\ 
+\hline 
+Prof. Anil Kulkarni & • & Power System Dynamics and Control, Application of Power Electronics to Power Systems, Flexible AC Transmission Systems \\ 
+\hline 
+Prof. Prem C. Pandey & • & Speech and Signal Processing, Biomedical Signal Processing and Instrumentation,Electronic Instrumentation, Embedded Electronic System Design \\ 
+\hline 
+Prof. Anshuman Shukla & • & Multilevel converters and Modulation and control of power electronic converters, Power electronics applications in power systems (FACTS,HVDC, custom power devices, etc.), Renewable energies and Energy storage, Control of electric drives, Hybrid and solid-state circuit breakers and current limiters \\ \hline 
+Prof. Shreevardhan A. Soman & • & Power system analysis, computation and economics, Power system protection \\ 
+\hline 
+Prof. Anupama Kowli  & • & Power System Planning, Operations and Control, Electricity Markets and Economics of Electric Power Grids, Demand-side Management, Demand
+Response and Flexible Loads, Smart Grids and its Enabling Technologies and Mechanisms, Policy and Regulation for Electric Power Grids. \\ 
+\hline 
+Prof. Himanshu J. Bahirat & • & Renewable Energy Sources; Grid Integration of Renewable Energy; Offshore Wind Energy; Transients in Power Systems; DC Power Systems;
+DC Wind Farms; Multi-terminal DC Networks; Circuit Breakers; Power Electronics. \\ 
+\hline 
+\end{tabular} 
+\section{EE5: Electronic Systems}
+\begin{tabular}{|c|c|p{6cm}|c}
+\hline 
+Faculty  & Office  & Research Interests \\ 
+\hline
+Prof. Madhav P. Desai & • & VLSI Circuits and Systems, VLSI design and design automation,Graph theory and combinatorics.\\ 
+\hline 
+Prof. Siddhartha P. Duttagupta & • & Microelectronics, Micro/Nano Sensor Technology Optimization and Application, Sensor Integrated Electronic Circuits and Systems- Design \\ 
+\hline 
+Prof. Vikram M. Gadre & • & Communication and signal processing, with emphasis on multiresolution and multi-rate signal processing, especially wavelets and filter banks: theory and applications \\ 
+\hline 
+Prof. Shalabh Gupta & • & High-speed CMOS analog/RF/mm-wave integrated circuits and systems,Optical fiber communication systems, Microwave photonics / ultrafast data  conversion using photonics , Beam forming antenna systems, Signal processing for these systems \\ 
+\hline 
+Prof. Joseph John & • & Analog and Digital Circuits, Optical Fiber Communications, Indoor Optical Wireless Systems, Modern Electronic Systems and Instrumentation \\ 
+\hline 
+Prof. Shabbir Merchant & • & Signal Processing, Adaptive Signal Processing\\ 
+\hline 
+Prof. Prem C. Pandey & *  &  Speech and Signal Processing, Biomedical Signal Processing and Instrumentation, Electronic Instrumentation, Embedded Electronic System Design\\ 
+\hline 
+Prof. Sachin Patkar & • & Combinatorial optimization Matroid Theory Submodular Functions
+Linear/Integer programming Network Flows High Performance Computing FPGA-based accelerated computing GPU based acceleration High Performance Circuit Simulation Algorithms Design and Analysis \\ 
+ \hline 
+ Prof. Preeti Rao & • &  Speech and Audio Signal Processing, Music Information Retrieval \\ 
+ \hline 
+ Prof. Dinesh K. Sharma & • & MOS device modeling VLSI design and technology. Microelectronics - technology and device characterization mixed signal design \\ 
+ \hline 
+ Prof. Virendra Singh & • & Computer Architecture Processor architecture and micro-architecture
+VLSI Testing Fault-tolerant computing Robust design and architectures Self-healing system design SoC/NoC design and test Post Silicon Debug High level synthesis Formal verification. \\ 
+ \hline 
+  Prof. Maryam Shojaei Baghini & • & Analog/Mixed-signal VLSI design and test (SoC, LV, LP, LE, Bio-
+medical/Biosensors, Bio-inspired circuits and systems, I/O, highly precise circuits and systems, instrumentation, energy harvesting and many more applications), Specific technologies and performance-optimized Analog/mixed-signal/RF circuits and systems for healthcare applications.\\ 
+\hline 
+ Prof. Rajesh H. Zele & • & RF, Analog and Mixed-Signal Circuits for Communication Applications. \\ 
+\hline 
+ Prof. Prof. Siddharth Tallur & • &  RF MEMS, Photonics, Opto-Mechanics, Micro- and Nano-fabrication, Sensor Systems.\\ 
+\hline 
+\end{tabular} 
+\section{EE5: Integrated Circuits}
+\section{EE6: Solid State Devices} 
+\chapter{Department Activities}
+\section {Student's Reading Group (SRG):}
+The SS Students’ Reading Group (SRG) was started in 2015 as an interactive peer review basedplatf orm to share knowledge and research issues from various domains of Electrical Engineering. The 5 specializations of EE department are divided into 4 clusters and researchers from every cluster present and discuss their work with their peer in the talks that are conducted throughout the semester. The sessions are entirely student run, giving the speakers a unique opportunity to present their ideas freely and receive reviews from the students alone.\newline
+New phase of SRG begins every semester. A 5 minute research challenge (5MR) is conducted in each phase where the participants get 5 minute to put forward their research ideas. A panel of faculty members decides the best speakers who are then awarded. The 5MR challenge is aimed
+at improving the technical communication skills of the student.
+\section {Department Academic Assistance Program (DAAP):}
+Department Academic Assistance Program (DAAP) is a helping hand to the students who are facing challenges in their academics. A student can face academic related issues due to various reasons, like unacquaintance with highly competitive environment at IIT, managing the academic
+workload and assignment timelines, unclear about field of interest etc. We believe that a little help from an experienced friend can make a difference. We provide one to one assistance through regular meetings. Assistants are student who have already excelled in the concerned field/course. They can complement classroom learning by providing techniques to manage course content effectively and sharing the resources. Since the inception of this program we have observed an improvement in the performance of more than 15 students. DAAP is creating a better environment for knowledge sharing and learning with joy!
+\newline
+\section {IEEE Students Chapter:}
+The IIT Bombay IEEE Students’ Chapter is a student body that strives to promote excellence in various fields of electrical engineering. The organization is involved in organizing talks, workshops and other activities to help students obtain new skills in their fields of interest.\newline
+\section {Bridge Course:}
+The Bridge Course, starting from 2016 is an initiative by the department to help new students of the M. Tech. and PhD programs which makes them comfortable with their coursework. The Bridge course focuses on revising essential prerequisites and developing analytical skill. It is felt that these two essential skills will help students to work on their courses more effectively.\newline
+\section {AAVRITI (Department Techfest):}
+It is the annual research and technological festival of Electrical Engineering department of IIT Bombay. AAVRITI, with the motto of promoting technology, creativity, intelligence and sheer innovation, and to enthrall the magical impact of electronics that it has on the human civilization over the years aims to bridge the gap between industry \& academia by encouraging exchange of ideas and providing opportunities for technical interactions.\newline
+It includes workshops on most advanced and buzzing technologies, lecture series by experts of particular fields as well as competitions and hackathons. This gives students a chance to expand their horizons and learn beyond engineering syllabus.\newline
+Other department activities include Teacher’s day, Sports day, Department trip, Convocation ceremony, Valedictory function and so on.
+\chapter{Department Location }
+Our department is large in terms of real estate. Our department is spread over various buildings: \newline
+\begin{enumerate}
+    \item  \textbf{EE Building:} \newline  Behind the SJMSOM building. It Resides PC lab, WEL, PEPS labs, Signal processing and instrumentation lab.
+    \item  \textbf{Girish Gaitonde Building:} \newline Referred as GG Building mainly. Situated behind SJMSOM and connected to EE building. Resides EE office, Class rooms, VLSI design lab, Department Library, Embedded Systems Lab.
+    \item \textbf{Annex Building:}\newline  Situated across infinity corridor behind EE building. It resides Fabrication lab facilities.
+    \item \textbf{CEN Building:} \newline Connected to annex building. Resides characterization labs. Faculty offices.
+\end{enumerate}
+
 %----------------------------------------------------------------------------------------
 %	CHAPTER 2
 %----------------------------------------------------------------------------------------
@@ -254,16 +548,6 @@ Posts relevant to a fresher Mtech student are mentioned here. For more informati
 
 \section{EE ISCP Team}\index{EE ISCP Team}
 \begin{center}
-	\begin{tabular}{cc}
-		\photo{1cm}{35mm}{./iscp/sunny.jpg}
-		& \photo{1cm}{35mm}{./iscp/nijil.jpg} \\
-		 \textbf{Sunny Mehta}
-		&\textbf{Ramkrishna}\\
-		\textit{sunnymehta78669@gmail.com}
-		&\textit{ramporicha@ee.iitb.ac.in}\\
-	\end{tabular}
-\end{center}
-\begin{center}
 	\begin{tabular}{ccc}
 		\photo{1cm}{35mm}{./iscp/sitaram.jpg}
 		& \photo{1cm}{35mm}{./iscp/indrani.jpg}
@@ -271,9 +555,9 @@ Posts relevant to a fresher Mtech student are mentioned here. For more informati
 		  \textbf{G Nagasitaram}
 		& \textbf{Indrani Mukherjee}
 		& \textbf{Tarun S} \\
-		\textit{@ee.iitb.ac.in}
+		\textit{sitaram@ee.iitb.ac.in}
 		&\textit{mukherjee.indrani22@ee.iitb.ac.in}
-		&\textit{@gmail.com}\\
+		&\textit{tarunsathesh@gmail.com}\\
 		\photo{1cm}{35mm}{./iscp/aswin.jpg}
 		& \photo{1cm}{35mm}{./iscp/sourabh.jpg}
 		& \photo{1cm}{35mm}{./iscp/nijil.jpg}\\
@@ -284,7 +568,7 @@ Posts relevant to a fresher Mtech student are mentioned here. For more informati
 		&\textit{@ee.iitb.ac.in}
 		&\textit{@gmail.com}\\
 		\photo{1cm}{35mm}{./iscp/amey.jpg}
-		& \photo{1cm}{45mm}{./iscp/raman.jpg}
+		& \photo{1cm}{25mm}{./iscp/raman.jpg}
 		& \photo{1cm}{35mm}{./iscp/yaswanth.jpg}\\
 		  \textbf{Chindarkar Amey}
 		& \textbf{Raman Thukral} 
@@ -293,13 +577,13 @@ Posts relevant to a fresher Mtech student are mentioned here. For more informati
 		&\textit{ramanthukral111@gmail.com}
 		&\textit{@gmail.com}\\
 		\photo{1cm}{35mm}{./iscp/risabh.jpg}
-		& \photo{1cm}{35mm}{./iscp/jahnavi.jpg}
+		& \photo{1cm}{20mm}{./iscp/jahnavi.jpg}
 		& \photo{1cm}{35mm}{./iscp/sabitha.jpg}\\
 		  \textbf{Risabh Chana}
 		& \textbf{N Jahnavi}
 		& \textbf{Sabitha Joseph}	\\	 
-		\textit{@ee.iitb.ac.in}
-		&\textit{@ee.iitb.ac.in}
+		\textit{rishabhchana844@gmail.com}
+		&\textit{jahnavireddy924@gmail.com}
 		&\textit{sabi.joseph3@gmail.com}\\
 		\photo{1cm}{35mm}{./iscp/ashvini.jpg}
 		& \photo{1cm}{35mm}{./iscp/pulkit.jpg}
@@ -308,7 +592,7 @@ Posts relevant to a fresher Mtech student are mentioned here. For more informati
 		& \textbf{Pulkit Jain}
 		& \textbf{Nijil George}	\\	 
 		\textit{@ee.iitb.ac.in}
-		&\textit{@ee.iitb.ac.in}
+		&\textit{jainpulkit54@gmail.com}
 		&\textit{@gmail.com}\\
 
 	\end{tabular}
