@@ -21,4 +21,10 @@ blindly you can copy and paste these lines in your terminal and hope it works :-
     cd handbook
     pdflatex hb.tex && evince hb.pdf
 ```
-### This project is just an amalgamation of various projects floating around in internet , GitHub , Overleaf , stack overflow answers extra. References are kept intact 
+## This project is just an amalgamation of various projects floating around in internet , GitHub , Overleaf , stack overflow answers extra. References are kept intact 
+The original template (the Legrand Orange Book Template) can be found here --> http://www.latextemplates.com/template/the-legrand-orange-book
+% Original author of the Legrand Orange Book Template:
+% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+
+% just a mere adaptation of https://www.overleaf.com/articles/clustering-the-interstellar-medium/mtthgyyfrdkn
