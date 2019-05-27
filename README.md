@@ -21,3 +21,4 @@ blindly you can copy and paste these lines in your terminal and hope it works :-
     cd handbook
     pdflatex hb.tex && evince hb.pdf
 ```
+### This project is just an amalgamation of various projects floating around in internet , GitHub , Overleaf , stack overflow answers extra. References are kept intact 
