@@ -1,5 +1,6 @@
 # handbook
 A simple latex file to generate department handbook for freshmen mtech students. 
+![intro.png not found](intro.png)
 
 ## dependencies 
 to generate pdf from tex file , you will need latex installed in your system . you can get it by 
@@ -30,3 +31,5 @@ The original template (the Legrand Orange Book Template) can be found here --> h
 % Vel (vel@latextemplates.com)
 
 Direct port of  https://www.overleaf.com/articles/clustering-the-interstellar-medium/mtthgyyfrdkn
+
+
