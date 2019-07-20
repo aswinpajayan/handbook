@@ -34,4 +34,11 @@ Direct port of  https://www.overleaf.com/articles/clustering-the-interstellar-me
 
 All the paths are relative. So copy the entire directory if you are not cloning 
 
+### Contributors
+Sabitha Susan
+Indrani Mukherjee
+Sunny Mehta
+
+Data was collected by iscp team ee-iitb
+
 
