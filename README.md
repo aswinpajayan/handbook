@@ -30,6 +30,8 @@ The original template (the Legrand Orange Book Template) can be found here --> h
 % Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
 % Vel (vel@latextemplates.com)
 
-Direct port of  https://www.overleaf.com/articles/clustering-the-interstellar-medium/mtthgyyfrdkn
+Direct port of  https://www.overleaf.com/articles/clustering-the-interstellar-medium/mtthgyyfrdkn'
+
+All the paths are relative. So copy the entire directory if you are not cloning 
 
 
