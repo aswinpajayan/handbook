@@ -36,7 +36,9 @@ All the paths are relative. So copy the entire directory if you are not cloning
 
 ### Contributors
 Sabitha Susan
+
 Indrani Mukherjee
+
 Sunny Mehta
 
 Data was collected by iscp team ee-iitb
